@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import { BrowserCamera } from './components/BrowserCamera';
+import { ImageTf } from './components/ImageTf';
 
 function App() {
   return (
     <div className="App">
-      <BrowserCamera />
+      <ImageTf/>
     </div>
   );
 }
